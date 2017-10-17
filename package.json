@@ -1,0 +1,30 @@
+{
+  "name": "nodeimageup",
+  "version": "1.0.0",
+  "description": "Example for image uploading in NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Belchenkov/nodeImageUploads.git"
+  },
+  "keywords": [
+    "Node.js",
+    "EJS",
+    "Multer"
+  ],
+  "author": "ABelchenkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Belchenkov/nodeImageUploads/issues"
+  },
+  "homepage": "https://github.com/Belchenkov/nodeImageUploads#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "multer": "^1.3.0",
+    "nodemon": "^1.12.1"
+  }
+}
